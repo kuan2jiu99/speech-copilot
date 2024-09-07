@@ -8,8 +8,9 @@ The official Github page of the paper "Speech-Copilot: Leveraging Large Language
 - Authors: Chun-Yi Kuan<sup>🐤</sup>, Chih-Kai Yang<sup>🐤</sup>, Wei-Ping Huang<sup>🐦 </sup>, Ke-Han Lu<sup>🐦 </sup>, Hung-yi Lee
 - 🐤 🐦: Equal Contribution 
 - Affiliation: National Taiwan University
-- Accepted to SLT2024.
+- Accepted to SLT2024
 - arXiv Link: https://arxiv.org/abs/2407.09886
+- Refer to our demo [website](https://sites.google.com/view/slt2024-demo-page) for more examples. 👍
 
 ## Overview
 ![overview](https://github.com/user-attachments/assets/337c0995-b314-4635-a2aa-d816240d04a6)
@@ -22,7 +23,7 @@ Our approach achieves state-of-the-art performance on the Dynamic-SUPERB benchma
 Key contributions include: 1) developing an innovative framework for speech processing-specific toolset construction, 2) establishing a high-performing agent based on large language models, and 3) offering a new perspective on addressing challenging instruction-oriented speech-processing tasks. 
 Without additional training processes required by end-to-end approaches, our method provides a flexible and extendable solution for a wide range of speech-processing applications.
 
-## Evaluation Results
+## Evaluation Results 🏆
 <img width="1078" alt="result" src="https://github.com/user-attachments/assets/029a1399-5318-4f7f-8873-d5aa172034dc">
 
 ## Code
