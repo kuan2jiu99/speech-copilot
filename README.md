@@ -5,10 +5,10 @@
   <a href="https://arxiv.org/abs/2407.09886">[arXiv]</a> 
   <a href="https://sites.google.com/view/slt2024-demo-page">[Demo]</a>
 </p>
+
 <div style="text-align: center;">
   <div style="display: flex; align-items: center; justify-content: center;">
     <img src="images/speech-copilot-logo.png" alt="logo" style="width: 150px; margin-right: 10px;">
-    <p></p>
   </div>
 </div>
 
@@ -22,7 +22,7 @@
 - Refer to our demo [website](https://sites.google.com/view/slt2024-demo-page) for more examples. 👍
 
 ## Overview ⭐
-<img src="images/overview.png" alt="overview" title="overview" style="width:55%;">
+<img src="images/overview.png" alt="overview" title="overview" style="width:100%;">
 
 
 ## Abstract 🔥
@@ -35,11 +35,11 @@ Without additional training processes required by end-to-end approaches, our met
 
 ## Evaluation Results 🏆
 <div style="display: flex; justify-content: flex-start; align-items: center;">
-  <img src="images/radar-chart.png" alt="chart" style="width: 30%; margin-right: 10px;">
-  <img src="images/overall-performance.png" alt="overall" style="width: 30%;">
+  <img src="images/radar-chart.png" alt="chart" style="width: 50%; margin-right: 10px;">
+  <img src="images/overall-performance.png" alt="overall" style="width: 50%;">
 </div>
 
-<img src="images/results.png" alt="results" title="results" style="width:55%;">
+<img src="images/results.png" alt="results" title="results" style="width:100%;">
 
 ## Tooleset Construction 🔧
 ### Step1: User Instruction
@@ -74,4 +74,3 @@ Without additional training processes required by end-to-end approaches, our met
     - ASR: Robust Speech Recognition via Large-Scale Weak Supervision [[arXiv](https://arxiv.org/abs/2212.04356)]
     - Audio Captioning Model: Qwen-audio: Advancing universal audio understanding via unified large-scale audio-language models [[arXiv](https://arxiv.org/abs/2311.07919)]
     - LLM: gpt-3.5-turbo
-
