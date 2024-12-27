@@ -146,28 +146,11 @@ def SNR_estimation(audio_path: str) -> int:
     # If you want to estimate the SNR of an audio file, you can call this function as follows:
     # SNR = SNR_estimation("path/to/audio/file.wav")
     # Example usage 2:
-    # If you want to choose an option that is most likely to be correct based on the SNR value, you can use the function as follows:
-    # Suppose possible options are zero, ten, twenty, and clean.
-    # def execute_command(audio, options) -> str:
-    #     # audio is the input audio files. options are the possible answers allowed.
-    #     SNR = SNR_estimation(audio)
-    #     # Since the results are deterministic, you do not need to query LLMs.
-    #     # You only need to map the SNR value to the most closet value.
-    #     if SNR < 5:
-    #         answer = "zero"
-    #     elif 5 <= SNR < 15:
-    #         answer = "ten"
-    #     elif 15 <= SNR < 25:
-    #         answer = "twenty"
-    #     else:
-    #         answer = "clean"
-    #     return answer
-    # Example usage 3:
     # If you want to determine whether the audio file is noisy, you can use the function as follows:
     # def execute_command(audio) -> str:
     #     # audio is the input audio files. The output is "clean" if the audio is clean, "noisy" otherwise.
     #     SNR = SNR_estimation(audio)
-    #     threshold = 15
+    #     threshold = 15 # You can adjust the threshold based on your requirement.
     #     if SNR > threshold:
     #         return "clean"
     #     else:

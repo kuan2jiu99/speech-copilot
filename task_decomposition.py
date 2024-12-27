@@ -56,15 +56,6 @@ def execute_command(audio):
 def execute_command(audio):
     sound_class = sound_classification(audio)
     return sound_class
-
-# Code for instruction 3
-# Task needed: SNR estimation
-def execute_command(audio):
-    SNR = SNR_estimation(audio)
-    if SNR > 15:
-        return "clean"
-    else:
-        return "noisy"
 ````````````````
 If multiple instructions are provided, you should write the code for each instruction separately and index them in the final output.
 Now given the following task instruction, please write the Python code to solve the tasks. The output should follow the format above.

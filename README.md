@@ -49,7 +49,7 @@ Without additional training processes required by end-to-end approaches, our met
 - (2) Refer to `task_decomposition.py` for details.
 ### Step3: Tasks Modularization
 - (1) After identifying the necessary speech modules, users can choose their preferred speech modules to serve as the backbone for these tasks.
-- (2) Examples are provided in `speech_module_generated_by_LLM.py`.
+- (2) Examples are provided in `prompt_templates/speech_module_generated_by_LLM.py`.
 ### Step4: Program Generation
 - (1) Use an LLM to analyze the given user instruction and generate a solution program based on the speech modules created in the previous steps.
 - (2) Refer to `program_generation.py` for guidance.
